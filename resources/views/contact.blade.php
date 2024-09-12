@@ -12,7 +12,11 @@
     <a href="/about">About</a>
     <h1>Contact</h1>
     <p>Ini adalah halaman contact</p>
-    <p>Hubungi kami melalui email: <a href="mailto:
+    <ul>
+        <li>Email: </li>
+        <li>Instagram: </li>
+        <li>Youtube: </li>
+    </ul>
     
 </body>
 </html>
