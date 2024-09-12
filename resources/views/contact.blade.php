@@ -1,22 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
-    <a href="/">Home</a>
-    <a href="/blog">Blog</a>
-    <a href="/contact">Contact</a>
-    <a href="/about">About</a>
-    <h1>Contact</h1>
-    <p>Ini adalah halaman contact</p>
+<x-layout>
+    <x-slot:title>{{ $title }}</x-slot> 
+    <h3 class="text-xl">Contact Me:</h3>
+    <br>
     <ul>
         <li>Email: </li>
         <li>Instagram: </li>
         <li>Youtube: </li>
     </ul>
-    
-</body>
-</html>
+</x-layout>
